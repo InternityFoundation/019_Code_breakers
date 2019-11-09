@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_home"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_freelancing"
+            android:icon="@drawable/ic_menu_freelancing"
+            android:title="Freelancing" />
+        <item
+            android:id="@+id/nav_motivation"
+            android:icon="@drawable/ic_menu_motivation"
+            android:title="Motivation" />
+        <item
+            android:id="@+id/nav_events"
+            android:icon="@drawable/ic_menu_events"
+            android:title="Events" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_rewards"
+                android:icon="@drawable/ic_menu_rewards"
+                android:title="Rewards" />
+            <item
+                android:id="@+id/nav_suggestion"
+                android:icon="@drawable/ic_menu_suggestion"
+                android:title="Suggestion" />
+        </menu>
+    </item>
+
+</menu>
